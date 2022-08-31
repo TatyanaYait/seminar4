@@ -11,7 +11,7 @@
 
 Console.WriteLine("Введите число");
 int b = int.Parse(Console.ReadLine());
- while (b <= 1 )
+ while (b <= 0 )
     {
         Console.WriteLine("Введите число больше единицы ");
         b = int.Parse(Console.ReadLine());
