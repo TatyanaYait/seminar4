@@ -11,9 +11,14 @@ int a = int.Parse(Console.ReadLine());
 
 SumNumbers(a);   // вызов функции с аргументом, введенным с клавиатуры*/
 
-int SumNumbers(int n) {  
+
+// математическая формула SUM = N * (N + 1) / 2;
+
+int SumNumbers(int n)
+{
     int sum = 0;
-    for (int i = 1; i <= n; i++)    {
+    for (int i = 1; i <= n; i++)
+    {
         sum = sum + i;  //  sum += i;
     }
     return sum;
