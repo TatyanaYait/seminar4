@@ -15,7 +15,7 @@ void PrintArray(int[] numbB)
     int posit = 0;
     while (posit < count)
     {
-        Console.Write(numbB[posit]);
+        Console.Write(numbB[posit] + ", ");
         posit++;
     }
 }
